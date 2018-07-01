@@ -106,6 +106,10 @@ Options:
 - `userModel`
 
   [String] : The name of the user model. *(default: 'User')*
+  
+- `userIdKey`
+
+  [String] : A custom userId key that should be used to determine group access of a user. *(default: 'userId')*
 
 - `roleModel`
 
